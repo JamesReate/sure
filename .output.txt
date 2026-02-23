@@ -1,0 +1,598 @@
+Bundler 2.6.9 is running, but your lockfile was generated with 2.6.7. Installing Bundler 2.6.7 and restarting using that version.
+Fetching gem metadata from https://rubygems.org/.
+Fetching bundler 2.6.7
+Installing bundler 2.6.7
+Fetching gem metadata from https://rubygems.org/........
+Fetching rake 13.3.0
+Installing rake 13.3.0
+Fetching Ascii85 2.0.1
+Fetching concurrent-ruby 1.3.5
+Fetching base64 0.3.0
+Fetching benchmark 0.4.1
+Fetching bigdecimal 3.3.1
+Fetching connection_pool 2.5.3
+Fetching drb 2.2.3
+Fetching logger 1.7.0
+Installing Ascii85 2.0.1
+Fetching minitest 5.25.5
+Installing concurrent-ruby 1.3.5
+Installing base64 0.3.0
+Fetching securerandom 0.4.1
+Fetching builder 3.3.0
+Installing benchmark 0.4.1
+Fetching erubi 1.13.1
+Installing bigdecimal 3.3.1 with native extensions
+Installing connection_pool 2.5.3
+Fetching crass 1.0.6
+Installing drb 2.2.3
+Fetching rack 3.1.20
+Installing logger 1.7.0
+Fetching useragent 0.16.11
+Installing minitest 5.25.5
+Fetching nio4r 2.7.4
+Installing securerandom 0.4.1
+Fetching websocket-extensions 0.1.5
+Installing builder 3.3.0
+Fetching zeitwerk 2.7.3
+Installing erubi 1.13.1
+Fetching timeout 0.4.3
+Installing crass 1.0.6
+Fetching marcel 1.0.4
+Installing rack 3.1.20
+Installing useragent 0.16.11
+Fetching mini_mime 1.1.5
+Fetching date 3.4.1
+Installing nio4r 2.7.4 with native extensions
+Installing websocket-extensions 0.1.5
+Fetching public_suffix 6.0.2
+Installing zeitwerk 2.7.3
+Fetching aes_key_wrap 1.1.0
+Installing timeout 0.4.3
+Fetching afm 1.0.0
+Installing marcel 1.0.4
+Fetching ast 2.4.3
+Installing mini_mime 1.1.5
+Fetching attr_required 1.0.2
+Installing date 3.4.1 with native extensions
+Installing public_suffix 6.0.2
+Installing aes_key_wrap 1.1.0
+Fetching aws-eventstream 1.4.0
+Fetching aws-partitions 1.1196.0
+Installing afm 1.0.0
+Fetching jmespath 1.6.2
+Installing ast 2.4.3
+Fetching bcrypt 3.1.20
+Installing attr_required 1.0.2
+Fetching benchmark-ips 2.14.0
+Installing aws-eventstream 1.4.0
+Fetching smart_properties 1.17.0
+Installing aws-partitions 1.1196.0
+Fetching bindata 2.5.1
+Installing jmespath 1.6.2
+Fetching bindex 0.8.1
+Installing bcrypt 3.1.20 with native extensions
+Installing benchmark-ips 2.14.0
+Installing smart_properties 1.17.0
+Fetching msgpack 1.8.0
+Fetching regexp_parser 2.10.0
+Installing bindata 2.5.1
+Installing bindex 0.8.1 with native extensions
+Installing msgpack 1.8.0 with native extensions
+Installing regexp_parser 2.10.0
+Fetching chunky_png 1.4.0
+Fetching climate_control 1.2.0
+Installing chunky_png 1.4.0
+Installing climate_control 1.2.0
+Fetching unaccent 0.4.0
+Installing unaccent 0.4.0
+Fetching rexml 3.4.2
+Installing rexml 3.4.2
+Fetching unicode 0.4.4.5
+Fetching csv 3.3.5
+Installing unicode 0.4.4.5 with native extensions
+Installing csv 3.3.5
+Fetching prettyprint 0.2.0
+Installing prettyprint 0.2.0
+Fetching erb 5.0.1
+Installing erb 5.0.1 with native extensions
+Fetching stringio 3.1.7
+Fetching io-console 0.8.0
+Installing stringio 3.1.7 with native extensions
+Installing io-console 0.8.0 with native extensions
+Fetching ffi 1.17.2 (arm64-darwin)
+Installing ffi 1.17.2 (arm64-darwin)
+Fetching thor 1.4.0
+Installing thor 1.4.0
+Fetching memory_profiler 1.1.0
+Installing memory_profiler 1.1.0
+Fetching mini_histogram 0.3.1
+Installing mini_histogram 0.3.1
+Fetching ostruct 0.6.2
+Installing ostruct 0.6.2
+Fetching ruby-statistics 4.1.0
+Installing ruby-statistics 4.1.0
+Fetching ruby2_keywords 0.0.5
+Installing ruby2_keywords 0.0.5
+Fetching diff-lcs 1.6.2
+Installing diff-lcs 1.6.2
+Fetching docile 1.4.1
+Fetching dotenv 3.1.8
+Installing docile 1.4.1
+Fetching ed25519 1.4.0
+Installing dotenv 3.1.8
+Fetching rainbow 3.1.1
+Installing ed25519 1.4.0 with native extensions
+Installing rainbow 3.1.1
+Fetching json 2.18.1
+Installing json 2.18.1 with native extensions
+Fetching language_server-protocol 3.17.0.5
+Installing language_server-protocol 3.17.0.5
+Fetching lint_roller 1.1.0
+Installing lint_roller 1.1.0
+Fetching parallel 1.27.0
+Installing parallel 1.27.0
+Fetching prism 1.4.0
+Fetching ruby-progressbar 1.13.0
+Installing ruby-progressbar 1.13.0
+Installing prism 1.4.0 with native extensions
+Fetching unicode-emoji 4.0.4
+Installing unicode-emoji 4.0.4
+Fetching event_stream_parser 1.0.0
+Installing event_stream_parser 1.0.0
+Fetching uri 1.1.1
+Installing uri 1.1.1
+Fetching multipart-post 2.4.1
+Installing multipart-post 2.4.1
+Fetching foreman 0.88.1
+Installing foreman 0.88.1
+Fetching raabro 1.4.0
+Installing raabro 1.4.0
+Fetching hashdiff 1.2.0
+Installing hashdiff 1.2.0
+Fetching hashery 2.1.2
+Installing hashery 2.1.2
+Fetching hashie 5.0.0
+Installing hashie 5.0.0
+Fetching rb-fsevent 0.11.2
+Fetching htmlbeautifier 1.4.3
+Fetching htmlentities 4.3.4
+Installing rb-fsevent 0.11.2
+Installing htmlbeautifier 1.4.3
+Fetching redcarpet 3.6.1
+Installing htmlentities 4.3.4
+Fetching rouge 4.5.2
+Fetching method_source 1.1.0
+Installing redcarpet 3.6.1 with native extensions
+Installing method_source 1.1.0
+Installing rouge 4.5.2
+Fetching yard 0.9.37
+Fetching version_gem 1.1.9
+Installing version_gem 1.1.9
+Installing yard 0.9.37
+Fetching pagy 9.3.5
+Installing pagy 9.3.5
+Fetching ruby-rc4 0.1.5
+Installing ruby-rc4 0.1.5
+Fetching pg 1.5.9
+Fetching rchardet 1.10.0
+Fetching rotp 6.3.0
+Installing pg 1.5.9 with native extensions
+Installing rotp 6.3.0
+Installing rchardet 1.10.0
+Fetching rqrcode_core 2.0.0
+Installing rqrcode_core 2.0.0
+Fetching rspec-support 3.13.6
+Installing rspec-support 3.13.6
+Fetching sorbet-runtime 0.5.12163
+Installing sorbet-runtime 0.5.12163
+Fetching rubyzip 2.4.1
+Installing rubyzip 2.4.1
+Fetching websocket 1.2.11
+Installing websocket 1.2.11
+Fetching simplecov-html 0.13.1
+Fetching simplecov_json_formatter 0.1.4
+Fetching stackprof 0.2.27
+Fetching stripe 15.3.0
+Installing simplecov-html 0.13.1
+Installing simplecov_json_formatter 0.1.4
+Fetching tailwindcss-ruby 4.1.8 (arm64-darwin)
+Installing stackprof 0.2.27 with native extensions
+Fetching vernier 1.8.0
+Installing stripe 15.3.0
+Fetching jwt 2.10.2
+Fetching vcr 6.3.1
+Fetching aasm 5.5.1
+Fetching i18n 1.14.7
+Installing vernier 1.8.0 with native extensions
+Installing jwt 2.10.2
+Installing vcr 6.3.1
+Installing aasm 5.5.1
+Installing i18n 1.14.7
+Fetching tzinfo 2.0.6
+Fetching posthog-ruby 3.3.3
+Fetching redis-client 0.25.0
+Installing tzinfo 2.0.6
+Fetching nokogiri 1.19.1 (arm64-darwin)
+Installing posthog-ruby 3.3.3
+Fetching brakeman 7.1.2
+Fetching childprocess 5.1.0
+Installing tailwindcss-ruby 4.1.8 (arm64-darwin)
+Installing redis-client 0.25.0
+Fetching mini_magick 5.2.0
+Fetching rbs 3.9.4
+Installing nokogiri 1.19.1 (arm64-darwin)
+Fetching rack-session 2.1.1
+Installing childprocess 5.1.0
+Installing mini_magick 5.2.0
+Fetching rack-test 2.2.0
+Fetching rackup 2.2.1
+Installing brakeman 7.1.2
+Installing rack-session 2.1.1
+Installing rack-test 2.2.0
+Fetching rack-protection 4.1.1
+Fetching rack-attack 6.7.0
+Fetching rack-cors 3.0.0
+Installing rackup 2.2.1
+Fetching rack-mini-profiler 4.0.0
+Installing rbs 3.9.4 with native extensions
+Installing rack-protection 4.1.1
+Fetching websocket-driver 0.8.0
+Installing rack-attack 6.7.0
+Fetching net-protocol 0.2.2
+Fetching addressable 2.8.7
+Installing rack-cors 3.0.0
+Fetching parser 3.3.8.0
+Installing rack-mini-profiler 4.0.0
+Installing websocket-driver 0.8.0 with native extensions
+Installing net-protocol 0.2.2
+Fetching aws-sigv4 1.12.1
+Installing addressable 2.8.7
+Fetching countries 8.0.3
+Fetching pp 0.6.2
+Installing parser 3.3.8.0
+Installing aws-sigv4 1.12.1
+Fetching rb-inotify 0.11.1
+Fetching ruby-vips 2.2.4
+Fetching heapy 0.2.0
+Installing pp 0.6.2
+Fetching mocha 2.7.1
+Installing rb-inotify 0.11.1
+Installing countries 8.0.3
+Fetching puma 6.6.0
+Installing heapy 0.2.0
+Installing ruby-vips 2.2.4
+Installing mocha 2.7.1
+Fetching unicode-display_width 3.1.4
+Installing puma 6.6.0 with native extensions
+Installing unicode-display_width 3.1.4
+Fetching net-http 0.9.1
+Fetching faraday-multipart 1.1.1
+Fetching psych 5.2.6
+Fetching crack 1.0.0
+Installing net-http 0.9.1
+Fetching get_process_mem 1.0.0
+Installing faraday-multipart 1.1.1
+Fetching multi_xml 0.8.0
+Installing psych 5.2.6 with native extensions
+Installing crack 1.0.0
+Installing get_process_mem 1.0.0
+Fetching ttfunk 1.8.0
+Fetching sentry-ruby 5.26.0
+Installing multi_xml 0.8.0
+Installing ttfunk 1.8.0
+Fetching bootsnap 1.18.6
+Installing sentry-ruby 5.26.0
+Installing bootsnap 1.18.6 with native extensions
+Fetching logtail 0.1.17
+Installing logtail 0.1.17
+Fetching snaky_hash 2.0.3
+Installing snaky_hash 2.0.3
+Fetching reline 0.6.1
+Fetching rqrcode 3.1.0
+Installing reline 0.6.1
+Installing rqrcode 3.1.0
+Fetching rspec-core 3.13.6
+Fetching rspec-expectations 3.13.5
+Installing rspec-core 3.13.6
+Installing rspec-expectations 3.13.5
+Fetching rspec-mocks 3.13.6
+Fetching selenium-webdriver 4.34.0
+Fetching simplecov 0.22.0
+Installing rspec-mocks 3.13.6
+Fetching faker 3.5.2
+Fetching activesupport 7.2.2.2
+Fetching cronex 0.15.0
+Fetching et-orbi 1.2.11
+Fetching redis 5.4.0
+Installing simplecov 0.22.0
+Fetching sidekiq 8.0.5
+Installing selenium-webdriver 4.34.0
+Installing faker 3.5.2
+Fetching loofah 2.24.1
+Installing activesupport 7.2.2.2
+Installing cronex 0.15.0
+Installing et-orbi 1.2.11
+Fetching xpath 3.2.0
+Fetching ruby-saml 1.18.1
+Installing redis 5.4.0
+Fetching omniauth 2.1.3
+Installing sidekiq 8.0.5
+Fetching css_parser 1.21.1
+Installing loofah 2.24.1
+Fetching json-schema 5.2.2
+Installing xpath 3.2.0
+Fetching launchy 3.1.1
+Installing ruby-saml 1.18.1
+Fetching aws-sdk-core 3.240.0
+Fetching listen 3.9.0
+Installing omniauth 2.1.3
+Fetching image_processing 1.14.0
+Installing css_parser 1.21.1
+Fetching terminal-table 4.0.0
+Fetching faraday-net_http 3.4.2
+Installing json-schema 5.2.2
+Fetching webmock 3.25.1
+Installing launchy 3.1.1
+Fetching derailed_benchmarks 2.2.1
+Installing aws-sdk-core 3.240.0
+Installing listen 3.9.0
+Fetching httparty 0.24.0
+Installing image_processing 1.14.0
+Fetching pdf-reader 2.15.1
+Installing terminal-table 4.0.0
+Installing faraday-net_http 3.4.2
+Fetching logtail-rack 0.2.6
+Fetching highline 3.1.2
+Fetching rubocop-ast 1.45.1
+Installing webmock 3.25.1
+Fetching ruby-lsp 0.24.1
+Installing derailed_benchmarks 2.2.1
+Fetching rdoc 6.14.2
+Installing httparty 0.24.0
+Fetching fugit 1.11.1
+Fetching rails-dom-testing 2.3.0
+Installing pdf-reader 2.15.1
+Installing logtail-rack 0.2.6
+Fetching globalid 1.2.1
+Fetching activemodel 7.2.2.2
+Installing highline 3.1.2
+Fetching platform_agent 1.0.1
+Installing rubocop-ast 1.45.1
+Fetching inline_svg 1.10.0
+Installing ruby-lsp 0.24.1
+Fetching view_component 3.23.2
+Installing rdoc 6.14.2
+Installing fugit 1.11.1
+Fetching pundit 2.5.2
+Installing rails-dom-testing 2.3.0
+Fetching skylight 6.0.4
+Fetching mail 2.8.1
+Installing globalid 1.2.1
+Fetching rails-html-sanitizer 1.6.2
+Installing activemodel 7.2.2.2
+Fetching capybara 3.40.0
+Installing platform_agent 1.0.1
+Fetching sentry-sidekiq 5.26.0
+Installing inline_svg 1.10.0
+Fetching sidekiq-unique-jobs 8.0.11
+Installing view_component 3.23.2
+Fetching omniauth-saml 2.2.4
+Installing pundit 2.5.2
+Fetching letter_opener 1.10.0
+Installing skylight 6.0.4 with native extensions
+Installing mail 2.8.1
+Installing rails-html-sanitizer 1.6.2
+Fetching aws-sdk-kms 1.118.0
+Fetching faraday 2.14.1
+Installing capybara 3.40.0
+Installing sentry-sidekiq 5.26.0
+Fetching rubocop 1.76.1
+Installing sidekiq-unique-jobs 8.0.11
+Installing omniauth-saml 2.2.4
+Installing letter_opener 1.10.0
+Fetching ruby-lsp-rails 0.4.6
+Fetching irb 1.15.2
+Fetching activejob 7.2.2.2
+Fetching sidekiq-cron 2.3.0
+Installing aws-sdk-kms 1.118.0
+Fetching activerecord 7.2.2.2
+Installing faraday 2.14.1
+Fetching email_validator 2.2.4
+Installing rubocop 1.76.1
+Installing ruby-lsp-rails 0.4.6
+Fetching validate_url 1.0.15
+Installing irb 1.15.2
+Installing activejob 7.2.2.2
+Installing sidekiq-cron 2.3.0
+Fetching actionview 7.2.2.2
+Fetching aws-sdk-s3 1.208.0
+Fetching faraday-follow_redirects 0.3.0
+Installing activerecord 7.2.2.2
+Installing email_validator 2.2.4
+Fetching faraday-retry 2.3.2
+Installing validate_url 1.0.15
+Fetching langfuse-ruby 0.1.4
+Installing actionview 7.2.2.2
+Fetching oauth2 2.0.18
+Installing aws-sdk-s3 1.208.0
+Fetching sawyer 0.9.2
+Fetching plaid 41.0.0
+Installing faraday-follow_redirects 0.3.0
+Fetching ruby-openai 8.1.0
+Fetching snaptrade 2.0.156
+Installing faraday-retry 2.3.2
+Fetching actionpack 7.2.2.2
+Installing langfuse-ruby 0.1.4
+Fetching better_html 2.1.1
+Installing oauth2 2.0.18
+Fetching jbuilder 2.13.0
+Installing sawyer 0.9.2
+Fetching activerecord-import 2.2.0
+Installing plaid 41.0.0
+Installing ruby-openai 8.1.0
+Fetching after_commit_everywhere 1.6.0
+Installing snaptrade 2.0.156
+Installing actionpack 7.2.2.2
+Installing better_html 2.1.1 with native extensions
+Installing jbuilder 2.13.0
+Installing activerecord-import 2.2.0
+Installing after_commit_everywhere 1.6.0
+Fetching rubocop-performance 1.25.0
+Fetching rubocop-rails 2.32.0
+Installing rubocop-performance 1.25.0
+Installing rubocop-rails 2.32.0
+Fetching json-jwt 1.16.7
+Fetching swd 2.0.3
+Fetching webfinger 2.1.3
+Installing json-jwt 1.16.7
+Installing swd 2.0.3
+Installing webfinger 2.1.3
+Fetching omniauth-oauth2 1.8.0
+Fetching octokit 10.0.0
+Installing omniauth-oauth2 1.8.0
+Fetching actioncable 7.2.2.2
+Fetching activestorage 7.2.2.2
+Fetching actionmailer 7.2.2.2
+Fetching railties 7.2.2.2
+Installing octokit 10.0.0
+Installing actioncable 7.2.2.2
+Fetching omniauth-rails_csrf_protection 1.0.2
+Fetching rack-oauth2 2.2.1
+Installing activestorage 7.2.2.2
+Fetching rubocop-rails-omakase 1.1.0
+Fetching omniauth-github 2.0.1
+Installing actionmailer 7.2.2.2
+Fetching omniauth-google-oauth2 1.2.1
+Installing railties 7.2.2.2
+Installing omniauth-rails_csrf_protection 1.0.2
+Fetching actionmailbox 7.2.2.2
+Installing rack-oauth2 2.2.1
+Installing rubocop-rails-omakase 1.1.0
+Fetching actiontext 7.2.2.2
+Installing omniauth-github 2.0.1
+Fetching openid_connect 2.3.1
+Installing omniauth-google-oauth2 1.2.1
+Installing actionmailbox 7.2.2.2
+Installing actiontext 7.2.2.2
+Fetching doorkeeper 5.8.2
+Fetching dotenv-rails 3.1.8
+Fetching hotwire-livereload 2.0.0
+Fetching stimulus-rails 1.3.4
+Installing openid_connect 2.3.1
+Installing dotenv-rails 3.1.8
+Installing doorkeeper 5.8.2
+Installing hotwire-livereload 2.0.0
+Fetching turbo-rails 2.0.16
+Fetching rails-i18n 7.0.10
+Installing stimulus-rails 1.3.4
+Fetching importmap-rails 2.1.0
+Fetching logtail-rails 0.2.10
+Fetching lookbook 2.3.11
+Fetching lucide-rails 0.7.3
+Installing turbo-rails 2.0.16
+Installing rails-i18n 7.0.10
+Installing importmap-rails 2.1.0
+Fetching propshaft 1.1.0
+Fetching rails-settings-cached 2.9.6
+Fetching rspec-rails 8.0.2
+Installing logtail-rails 0.2.10
+Fetching rswag-api 2.16.0
+Fetching rswag-specs 2.16.0
+Installing lookbook 2.3.11
+Installing lucide-rails 0.7.3
+Installing propshaft 1.1.0
+Fetching rswag-ui 2.16.0
+Installing rails-settings-cached 2.9.6
+Fetching sentry-rails 5.26.0
+Installing rspec-rails 8.0.2
+Installing rswag-api 2.16.0
+Installing rswag-specs 2.16.0
+Fetching tailwindcss-rails 4.2.3
+Fetching web-console 4.2.1
+Fetching erb_lint 0.9.0
+Installing sentry-rails 5.26.0
+Installing tailwindcss-rails 4.2.3
+Installing web-console 4.2.1
+Fetching rails 7.2.2.2
+Installing erb_lint 0.9.0
+Fetching omniauth_openid_connect 0.8.0
+Installing rails 7.2.2.2
+Fetching i18n-tasks 1.0.15
+Fetching hotwire_combobox 0.4.0
+Installing rswag-ui 2.16.0
+Installing omniauth_openid_connect 0.8.0
+Installing i18n-tasks 1.0.15
+Installing hotwire_combobox 0.4.0
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+current directory:
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/vernier-1.8.0/ext/vernier
+/Users/jreate/.rbenv/versions/3.4.7/bin/ruby extconf.rb
+checking for ruby/thread.h... yes
+checking for rb_internal_thread_event_data_t.thread in ruby/thread.h... yes
+checking for rb_profile_thread_frames() in ruby/debug.h... yes
+checking for pthread_setname_np()... yes
+checking for pthread_condattr_setclock()... no
+creating Makefile
+current directory:
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/vernier-1.8.0/ext/vernier
+make DESTDIR\= sitearchdir\=./.gem.20260222-7570-in2p75
+sitelibdir\=./.gem.20260222-7570-in2p75 clean
+current directory:
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/vernier-1.8.0/ext/vernier
+make DESTDIR\= sitearchdir\=./.gem.20260222-7570-in2p75
+sitelibdir\=./.gem.20260222-7570-in2p75
+compiling memory.cc
+make: *** [memory.o] Error 1
+make failed, exit code 2
+Gem files will remain installed in
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/vernier-1.8.0 for
+inspection.
+Results logged to
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/extensions/arm64-darwin-25/3.4.0/vernier-1.8.0/gem_make.out
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:125:in
+'Gem::Ext::Builder.run'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:51:in
+'block in Gem::Ext::Builder.make'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:43:in
+'Array#each'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:43:in
+'Gem::Ext::Builder.make'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/ext_conf_builder.rb:44:in
+'Gem::Ext::ExtConfBuilder.build'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:206:in
+'Gem::Ext::Builder#build_extension'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:240:in
+'block in Gem::Ext::Builder#build_extensions'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:237:in
+'Array#each'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/ext/builder.rb:237:in
+'Gem::Ext::Builder#build_extensions'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/3.4.0/rubygems/installer.rb:844:in
+'Gem::Installer#build_extensions'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/rubygems_gem_installer.rb:111:in
+'Bundler::RubyGemsGemInstaller#build_extensions'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/rubygems_gem_installer.rb:30:in
+'Bundler::RubyGemsGemInstaller#install'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/source/rubygems.rb:220:in
+'Bundler::Source::Rubygems#install'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/installer/gem_installer.rb:55:in
+'Bundler::GemInstaller#install'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/installer/gem_installer.rb:17:in
+'Bundler::GemInstaller#install_from_spec'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/installer/parallel_installer.rb:133:in
+'Bundler::ParallelInstaller#do_install'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/installer/parallel_installer.rb:124:in
+'block in Bundler::ParallelInstaller#worker_pool'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/worker.rb:62:in
+'Bundler::Worker#apply_func'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/worker.rb:57:in
+'block in Bundler::Worker#process_queue'
+  <internal:kernel>:168:in 'Kernel#loop'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/worker.rb:54:in
+'Bundler::Worker#process_queue'
+/Users/jreate/.rbenv/versions/3.4.7/lib/ruby/gems/3.4.0/gems/bundler-2.6.7/lib/bundler/worker.rb:90:in
+'block (2 levels) in Bundler::Worker#create_threads'
+An error occurred while installing vernier (1.8.0), and Bundler cannot
+continue.
+In Gemfile:
+  vernier

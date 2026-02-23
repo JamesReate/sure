@@ -4,7 +4,8 @@ class Api::V1::AccountsController < Api::V1::BaseController
   include Pagy::Backend
 
   # Ensure proper scope authorization for read access
-  before_action :ensure_read_scope
+  before_action :ensure_read_scope, only: [ :index, :show ]
+  before_action :ensure_write_scope, only: [ :create, :update, :destroy ]
 
   def index
     # Test with Pagy pagination
@@ -23,20 +24,50 @@ class Api::V1::AccountsController < Api::V1::BaseController
     # Rails will automatically use app/views/api/v1/accounts/index.json.jbuilder
     render :index
   rescue => e
-    Rails.logger.error "AccountsController error: #{e.message}"
+    Rails.logger.error "AccountsController index error: #{e.message}"
     Rails.logger.error e.backtrace.join("\n")
 
     render json: {
       error: "internal_server_error",
       message: "Error: #{e.message}"
     }, status: :internal_server_error
-end
+  end
 
-    private
+  def create
+    @account = current_resource_owner.family.accounts.create_and_sync(account_params)
 
-      def ensure_read_scope
-        authorize_scope!(:read)
-      end
+    if @account.persisted?
+      render json: @account, status: :created
+    else
+      render json: { error: "unprocessable_entity", message: @account.errors.full_messages.join(", ") }, status: :unprocessable_entity
+    end
+  rescue => e
+    Rails.logger.error "AccountsController create error: #{e.message}"
+    Rails.logger.error e.backtrace.join("\n")
+
+    render json: {
+      error: "internal_server_error",
+      message: "Error: #{e.message}"
+    }, status: :internal_server_error
+  end
+
+  private
+
+    def ensure_read_scope
+      authorize_scope!(:read)
+    end
+
+    def ensure_write_scope
+      authorize_scope!(:write)
+    end
+
+    def account_params
+      params.require(:account).permit(
+        :name, :balance, :subtype, :currency, :accountable_type,
+        :institution_name, :institution_domain, :notes,
+        accountable_attributes: {} # Allow any attributes for now
+      )
+    end
 
 
 

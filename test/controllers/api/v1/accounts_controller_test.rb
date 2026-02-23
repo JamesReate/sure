@@ -78,6 +78,65 @@ end
     end
   end
 
+  test "should create a manual account" do
+    access_token = Doorkeeper::AccessToken.create!(
+      application: @oauth_app,
+      resource_owner_id: @user.id,
+      scopes: "read_write"
+    )
+
+    account_params = {
+      account: {
+        name: "New API Account",
+        balance: 1000.50,
+        currency: "USD",
+        accountable_type: "Depository",
+        subtype: "checking"
+      }
+    }
+
+    assert_difference "Account.count", 1 do
+      post "/api/v1/accounts", params: account_params, headers: {
+        "Authorization" => "Bearer #{access_token.token}"
+      }
+    end
+
+    assert_response :created
+    response_body = JSON.parse(response.body)
+
+    assert_equal "New API Account", response_body["name"]
+    assert_equal "1000.5", response_body["balance"].to_s
+    assert_equal "USD", response_body["currency"]
+    assert_equal "Depository", response_body["accountable_type"]
+  end
+
+  test "should return error when creating account with invalid params" do
+    access_token = Doorkeeper::AccessToken.create!(
+      application: @oauth_app,
+      resource_owner_id: @user.id,
+      scopes: "read_write"
+    )
+
+    account_params = {
+      account: {
+        name: "", # Invalid name
+        balance: 1000.50,
+        currency: "USD",
+        accountable_type: "Depository"
+      }
+    }
+
+    assert_no_difference "Account.count" do
+      post "/api/v1/accounts", params: account_params, headers: {
+        "Authorization" => "Bearer #{access_token.token}"
+      }
+    end
+
+    assert_response :unprocessable_entity
+    response_body = JSON.parse(response.body)
+    assert_equal "unprocessable_entity", response_body["error"]
+  end
+
   test "should only return active accounts" do
     # Make one account inactive
     inactive_account = accounts(:depository)
